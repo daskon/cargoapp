@@ -5,6 +5,7 @@ import ServiceSlider from '../components/ServiceSlider/ServiceSlider'
 import Stats from '../components/Stats/Stats'
 import TestimonialSection from '../components/Testimonial/TestimonialSection'
 import ClientsLogos from '../components/ClientsLogo/ClientLogos'
+import News from '../components/News/News'
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
         <Stats/>
         <TestimonialSection/>
         <ClientsLogos/>
+        <News/>
     </div>
   )
 }
