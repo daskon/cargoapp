@@ -6,7 +6,7 @@ import AirFreight from "../../assets/AirFreightServices.png";
 import DroneService from "../../assets/droneservice.jpg";
 import CargoHandle from "../../assets/cargohandling.jpg";
 
-import { FaTools, FaPlane, FaShippingFast, FaTruck } from 'react-icons/fa';
+import { FaTools, FaPlane, FaShippingFast } from 'react-icons/fa';
 
 const services = [
   {
