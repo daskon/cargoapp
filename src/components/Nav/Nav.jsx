@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export const Nav = () => {
-    
+
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
@@ -30,10 +30,10 @@ export const Nav = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-white text-sm font-bold py-2 px-4 rounded">
+            <button className="bg-yellow-500 hover:bg-yellow-600 text-white text-sm font-bold py-2 px-4 cursor-pointer">
               Get a Quote
             </button>
-            <button className="bg-black hover:bg-gray-800 text-white text-sm font-bold py-2 px-4 rounded">
+            <button className="bg-black hover:bg-gray-800 text-white text-sm font-bold py-2 px-4 cursor-pointer">
               Sign In
             </button>
           </div>

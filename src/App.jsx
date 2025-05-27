@@ -3,6 +3,7 @@ import './App.css'
 import { Nav } from './components/Nav/Nav'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './layout/Layout';
+import Homepage from './Pages/Homepage';
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
       children: [
         {
           path: "/",
-          element: "home"
+          element: <Homepage/>
         }
       ]
     }
