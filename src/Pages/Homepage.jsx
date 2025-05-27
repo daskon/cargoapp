@@ -6,6 +6,7 @@ import Stats from '../components/Stats/Stats'
 import TestimonialSection from '../components/Testimonial/TestimonialSection'
 import ClientsLogos from '../components/ClientsLogo/ClientLogos'
 import News from '../components/News/News'
+import Footer from '../components/Footer/Footer'
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
         <TestimonialSection/>
         <ClientsLogos/>
         <News/>
+        <Footer/>
     </div>
   )
 }
