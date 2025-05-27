@@ -40,7 +40,7 @@ export const Welcome = () => {
           products proceeds consistently and supply chains stay lean and
           streamlined for progress.
         </p>
-        <button className="mt-6 px-6 py-3 border border-teal-800 text-teal-800 font-semibold rounded hover:bg-teal-800 hover:text-white transition">
+        <button className="mt-6 px-6 py-3 border border-teal-800 text-teal-800 font-semibold rounded hover:bg-teal-800 hover:text-white transition cursor-pointer">
           MORE ABOUT US
         </button>
       </div>
