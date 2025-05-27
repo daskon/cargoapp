@@ -7,7 +7,7 @@ const stats = [
 
 const Stats = () => {
   return (
-    <div className="bg-white py-10 px-4 md:px-16">
+    <div className="bg-white py-10 px-4 md:px-16 mt-12">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-left relative">
         {stats.map((stat, index) => (
           <div key={index} className="relative flex items-center">
