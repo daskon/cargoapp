@@ -11,21 +11,21 @@ import { FaTools, FaPlane, FaShippingFast } from 'react-icons/fa';
 const services = [
   {
     title: 'Air Freight Services',
-    description: 'At our Auto Service garage, we are fully appreciate how difficult occur it is for people to find.',
+    description: 'We’ve added a faster, more efficient shipping route to East Asia! Expect reduced delivery times and better tracking for all packages.',
     image: AirFreight,
     icon: <FaTools />,
     bgColor: 'bg-lime-500',
   },
   {
     title: 'Drone Services',
-    description: 'These are unique and often they differ from one industry to the other. Our logistics expertise.',
+    description: 'Our new express customs clearance option helps speed up your international shipments, saving you both time and money',
     image: DroneService,
     icon: <FaShippingFast />,
     bgColor: 'bg-lime-500',
   },
   {
     title: 'International Cargo',
-    description: 'We handle international freight logistics with precision and care.',
+    description: 'We’ve expanded our global network! You can now send cargo to more countries across Europe, Africa, and South America.',
     image: CargoHandle,
     icon: <FaPlane />,
     bgColor: 'bg-lime-500',

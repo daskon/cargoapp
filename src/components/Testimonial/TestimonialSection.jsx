@@ -5,22 +5,22 @@ import 'swiper/css';
 
 const testimonials = [
   {
-    quote: `Integer congue elit non semper laoreet sed lectus orci posuere nisl tempor se felis ac mauris. Pellen tesque inyd urna.`,
+    quote: `I've used many cargo services, but this one truly stands out. My package arrived on time, and the tracking updates kept me informed every step of the way!`,
     name: "John Deo",
     title: "Managing Director",
   },
   {
-    quote: `Integer vitae felis vel magna posu du vestibulum. Nam rutrum congue diam. Aliquam malesuada maurs.`,
+    quote: `Our company ships weekly, and this service has never let us down. Affordable rates, quick delivery, and excellent support!`,
     name: "Jane Smith",
     title: "Operations Head",
   },
 ];
 
 const reasons = [
-  "Dui ac hendrerit elementum quam ipsum auctor lorem",
-  "Mauris vel magna a est lobortis volutpat",
-  "Sed bibendum ornare lorem mauris feugiat suspendisse neque",
-  "Nulla scelerisque dul hendrerit elementum quam",
+  "Where would you like to ship your next package?",
+  "How important is delivery speed to you?",
+  "Have you used our cargo tracking feature before?",
+  "What could make your shipping experience better?",
 ];
 
 export default function TestimonialSection() {
@@ -32,7 +32,7 @@ export default function TestimonialSection() {
         {/* Left: Testimonials */}
         <div>
           <h2 className="text-2xl font-bold text-gray-900 mb-1">TRUSTED CLIENTS</h2>
-          <p className="text-gray-400 uppercase tracking-widest mb-6 text-sm">Lorem ipsum dolor sit amet consectetur</p>
+          <p className="text-gray-400 uppercase tracking-widest mb-6 text-sm">Our clients feedbacks !..</p>
 
           <Swiper
             spaceBetween={20}
@@ -73,7 +73,7 @@ export default function TestimonialSection() {
         {/* Right: Accordion */}
         <div>
           <h2 className="text-2xl font-bold text-gray-900 mb-1">WHY CHOOSE US</h2>
-          <p className="text-gray-400 uppercase tracking-widest mb-6 text-sm">Lorem ipsum dolor sit amet consectetur</p>
+          <p className="text-gray-400 uppercase tracking-widest mb-6 text-sm">We provide answer to your questions</p>
 
           <div className="space-y-4">
             {reasons.map((reason, i) => (
