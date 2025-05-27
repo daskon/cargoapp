@@ -16,5 +16,7 @@ To get started, clone the repository and follow these steps:
 npm install
 npm run dev
 
+
+
 ![Homepage Screenshot](landing_page.png)
 
